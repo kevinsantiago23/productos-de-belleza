@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Índice de Tiendas de Belleza</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div class="contenedor" id="top">
+
+    <!-- ENCABEZADO -->
+    <header>
+        <h1>Índice de Tiendas de Belleza</h1>
+        <p>Directorio de hipervínculos a tiendas de productos de belleza</p>
+    </header>
+
+    <!-- BUSCADOR -->
+    <div class="buscador">
+        <input type="text" id="inputBusqueda" placeholder="🔍 Buscar tienda o categoría...">
+        <span class="contador" id="contadorEnlaces">20 enlaces</span>
+    </div>
+
+    <!-- ÍNDICE DE CATEGORÍAS (navegación interna) -->
+    <nav class="indice-categorias">
+        <h2>📌 Categorías</h2>
+        <ul>
+            <li><a href="#maquillaje">Maquillaje</a></li>
+            <li><a href="#skincare">Skincare</a></li>
+            <li><a href="#cabello">Cabello</a></li>
+            <li><a href="#perfumes">Perfumes</a></li>
+            <li><a href="#natural">Natural / Clean</a></li>
+            <li><a href="#multimarca">Multimarca</a></li>
+        </ul>
+    </nav>
+
+    <!-- SECCIÓN: MAQUILLAJE -->
+    <section id="maquillaje" class="seccion">
+        <h2>Maquillaje</h2>
+        <ul class="lista-enlaces">
+            <li data-nombre="Sephora maquillaje">
+                <span class="num">1</span>
+                <a href="https://www.sephora.com" target="_blank" rel="noopener" class="enlace-tienda">Sephora</a>
+                <a href="https://www.sephora.com" target="_blank" rel="noopener" class="externo">↗ abrir</a>
+                <span class="descripcion">Maquillaje de alta gama y marcas exclusivas como Fenty Beauty, Rare Beauty y Huda Beauty.</span>
+            </li>
+            <li data-nombre="Ulta Beauty maquillaje">
+                <span class="num">2</span>
+                <a href="https://www.ulta.com" target="_blank" rel="noopener" class="enlace-tienda">Ulta Beauty</a>
+                <a href="https://www.ulta.com" target="_blank" rel="noopener" class="externo">↗ abrir</a>
+                <span class="descripcion">Amplia selección de maquillaje drugstore y premium: NYX, MAC, Maybelline, etc.</span>
+            </li>
+            <li data-nombre="NYX Cosmetics maquillaje">
+                <span class="num">3</span>
+                <a href="https://www.nyxcosmetics.com" target="_blank" rel="noopener" class="enlace-tienda">NYX Cosmetics</a>
+                <a href="https://www.nyxcosmetics.com" target="_blank" rel="noopener" class="externo">↗ abrir</a>
+                <span class="descripcion">Marca de maquillaje profesional a precio accesible. Labiales, paletas y más.</span>
+            </li>
+            <li data-nombre="MAC Cosmetics maquillaje">
+                <span class="num">4</span>
+                <a href="https://www.maccosmetics.com" target="_blank" rel="noopener" class="enlace-tienda">MAC Cosmetics</a>
+                <a href="https://www.maccosmetics.com" target="_blank" rel="noopener" class="externo">↗ abrir</a>
+                <span class="descripcion">Icono del maquillaje profesional. Bases, labiales y productos de alta pigmentación.</span>
+            </li>
+        </ul>
+        <div class="volver-arriba"><a href="#top">↑ Volver al índice</a></div>
+    </section>
+
+    <!-- SECCIÓN: SKINCARE -->
+    <section id="skincare" class="seccion">
+        <h2>Skincare</h2>
+        <ul class="lista-enlaces">
+            <li data-nombre="Look Fantastic skincare">
+                <span class="num">5</span>
+                <a href="https://www.lookfantastic.com" target="_blank" rel="noopener" class="enlace-tienda">Look Fantastic</a>
+                <a href="https://www.lookfantastic.com" target="_blank" rel="noopener" class="externo">↗ abrir</a>
+                <span class="descripcion">Tienda online con marcas internacionales de skincare y ofertas exclusivas.</span>
+            </li>
+            <li data-nombre="Cult Beauty skincare">
+                <span class="num">6</span>
+                <a href="https://www.cultbeauty.com" target="_blank" rel="noopener" class="enlace-tienda">Cult Beauty</a>
+                <a href="https://www.cultbeauty.com" target="_blank" rel="noopener" class="externo">↗ abrir</a>
+                <span class="descripcion">Curaduría de marcas indie y de lujo, cruelty-free y con fórmulas innovadoras.</span>
+            </li>
+            <li data-nombre="Paulas Choice skincare">
+                <span class="num">7</span>
+                <a href="https://www.paulaschoice.com" target="_blank" rel="noopener" class="enlace-tienda">Paula's Choice</a>
+                <a href="https://www.paulaschoice.com" target="_blank" rel="noopener" class="externo">↗ abrir</a>
+                <span class="descripcion">Skincare basado en ciencia. Exfoliantes, serums y tratamientos para todo tipo de piel.</span>
+            </li>
+            <li data-nombre="The Ordinary skincare">
+                <span class="num">8</span>
+                <a href="https://www.theordinary.com" target="_blank" rel="noopener" class="enlace-tienda">The Ordinary</a>
+                <a href="https://www.theordinary.com" target="_blank" rel="noopener" class="externo">↗ abrir</a>
+                <span class="descripcion">Fórmulas simples y efectivas a precios accesibles. Ácido hialurónico, niacinamida y más.</span>
+            </li>
+        </ul>
+        <div class="volver-arriba"><a href="#top">↑ Volver al índice</a></div>
+    </section>
+
+    <!-- SECCIÓN: CABELLO -->
+    <section id="cabello" class="seccion">
+        <h2>Cabello</h2>
+        <ul class="lista-enlaces">
+            <li data-nombre="Olaplex cabello">
+                <span class="num">9</span>
+                <a href="https://www.olaplex.com" target="_blank" rel="noopener" class="enlace-tienda">Olaplex</a>
+                <a href="https://www.olaplex.com" target="_blank" rel="noopener" class="externo">↗ abrir</a>
+                <span class="descripcion">Tratamientos capilares reparadores. Famoso por su sistema de reconstrucción de enlaces.</span>
+            </li>
+            <li data-nombre="Kerastase cabello">
+                <span class="num">10</span>
+                <a href="https://www.kerastase.com" target="_blank" rel="noopener" class="enlace-tienda">Kérastase</a>
+                <a href="https://www.kerastase.com" target="_blank" rel="noopener" class="externo">↗ abrir</a>
+                <span class="descripcion">Cuidado capilar de lujo. Champús, mascarillas y aceites para todo tipo de cabello.</span>
+            </li>
+            <li data-nombre="SheaMoisture cabello">
+                <span class="num">11</span>
+                <a href="https://www.sheamoisture.com" target="_blank" rel="noopener" class="enlace-tienda">SheaMoisture</a>
+                <a href="https://www.sheamoisture.com" target="_blank" rel="noopener" class="externo">↗ abrir</a>
+                <span class="descripcion">Productos naturales para cabello rizado y texturizado. Ingredientes ethically sourced.</span>
+            </li>
+        </ul>
+        <div class="volver-arriba"><a href="#top">↑ Volver al índice</a></div>
+    </section>
+
+    <!-- SECCIÓN: PERFUMES -->
+    <section id="perfumes" class="seccion">
+        <h2>Perfumes</h2>
+        <ul class="lista-enlaces">
+            <li data-nombre="Douglas perfumes">
+                <span class="num">12</span>
+                <a href="https://www.douglas.es" target="_blank" rel="noopener" class="enlace-tienda">Douglas</a>
+                <a href="https://www.douglas.es" target="_blank" rel="noopener" class="externo">↗ abrir</a>
+                <span class="descripcion">Cadena europea líder en perfumería y belleza. Marcas selectas y programa de fidelidad.</span>
+            </li>
+            <li data-nombre="Notino perfumes">
+                <span class="num">13</span>
+                <a href="https://www.notino.es" target="_blank" rel="noopener" class="enlace-tienda">Notino</a>
+                <a href="https://www.notino.es" target="_blank" rel="noopener" class="externo">↗ abrir</a>
+                <span class="descripcion">Gran tienda online de perfumes, cosméticos y productos de cuidado personal.</span>
+            </li>
+            <li data-nombre="FragranceX perfumes">
+                <span class="num">14</span>
+                <a href="https://www.fragrancex.com" target="_blank" rel="noopener" class="enlace-tienda">FragranceX</a>
+                <a href="https://www.fragrancex.com" target="_blank" rel="noopener" class="externo">↗ abrir</a>
+                <span class="descripcion">Perfumes originales a precios de descuento. Envío internacional.</span>
+            </li>
+        </ul>
+        <div class="volver-arriba"><a href="#top">↑ Volver al índice</a></div>
+    </section>
+
+    <!-- SECCIÓN: NATURAL / CLEAN -->
+    <section id="natural" class="seccion">
+        <h2>Natural / Clean Beauty</h2>
+        <ul class="lista-enlaces">
+            <li data-nombre="iHerb natural">
+                <span class="num">15</span>
+                <a href="https://www.iherb.com" target="_blank" rel="noopener" class="enlace-tienda">iHerb</a>
+                <a href="https://www.iherb.com" target="_blank" rel="noopener" class="externo">↗ abrir</a>
+                <span class="descripcion">Productos naturales, suplementos y belleza clean. Envíos económicos y gran variedad.</span>
+            </li>
+            <li data-nombre="Credo Beauty natural">
+                <span class="num">16</span>
+                <a href="https://www.credobeauty.com" target="_blank" rel="noopener" class="enlace-tienda">Credo Beauty</a>
+                <a href="https://www.credobeauty.com" target="_blank" rel="noopener" class="externo">↗ abrir</a>
+                <span class="descripcion">Clean beauty con estrictos estándares de ingredientes. Marcas sostenibles y cruelty-free.</span>
+            </li>
+            <li data-nombre="Lush natural">
+                <span class="num">17</span>
+                <a href="https://www.lush.com" target="_blank" rel="noopener" class="enlace-tienda">Lush</a>
+                <a href="https://www.lush.com" target="_blank" rel="noopener" class="externo">↗ abrir</a>
+                <span class="descripcion">Cosméticos frescos, hechos a mano, vegetarianos y libres de crueldad animal.</span>
+            </li>
+        </ul>
+        <div class="volver-arriba"><a href="#top">↑ Volver al índice</a></div>
+    </section>
+
+    <!-- SECCIÓN: MULTIMARCA -->
+    <section id="multimarca" class="seccion">
+        <h2>Multimarca</h2>
+        <ul class="lista-enlaces">
+            <li data-nombre="Amazon Beauty multimarca">
+                <span class="num">18</span>
+                <a href="https://www.amazon.com/beauty" target="_blank" rel="noopener" class="enlace-tienda">Amazon Beauty</a>
+                <a href="https://www.amazon.com/beauty" target="_blank" rel="noopener" class="externo">↗ abrir</a>
+                <span class="descripcion">Enorme variedad de productos de belleza de todas las marcas y precios.</span>
+            </li>
+            <li data-nombre="Walmart Beauty multimarca">
+                <span class="num">19</span>
+                <a href="https://www.walmart.com/beauty" target="_blank" rel="noopener" class="enlace-tienda">Walmart Beauty</a>
+                <a href="https://www.walmart.com/beauty" target="_blank" rel="noopener" class="externo">↗ abrir</a>
+                <span class="descripcion">Productos de belleza económicos y de marcas reconocidas.</span>
+            </li>
+            <li data-nombre="Target Beauty multimarca">
+                <span class="num">20</span>
+                <a href="https://www.target.com/c/beauty" target="_blank" rel="noopener" class="enlace-tienda">Target Beauty</a>
+                <a href="https://www.target.com/c/beauty" target="_blank" rel="noopener" class="externo">↗ abrir</a>
+                <span class="descripcion">Selección de belleza con marcas exclusivas y opciones asequibles.</span>
+            </li>
+        </ul>
+        <div class="volver-arriba"><a href="#top">↑ Volver al índice</a></div>
+    </section>
+
+    <!-- MENSAJE SIN RESULTADOS -->
+    <p id="sinResultados" class="sin-resultados" style="display:none;">
+        😕 No se encontraron tiendas que coincidan con tu búsqueda.
+    </p>
+
+    <!-- FOOTER -->
+    <footer>
+        <p>📄 Índice de tiendas de belleza · Todos los enlaces abren en una nueva pestaña</p>
+        <p>Última actualización: 2025 · Página informativa sin fines de lucro</p>
+    </footer>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
